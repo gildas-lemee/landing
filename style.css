@@ -1,0 +1,131 @@
+/* Write some CSS below */
+h1, h2, h3{
+	color: #A89C77;
+	font-family: Papyrus;
+	text-align: center;
+}
+
+p{
+	color: skyblue;
+	font-family: 'Alkalami', serif;
+}
+
+a{
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: 'Alkalami', serif;
+}
+
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/background.jpg');
+	background-position: center;
+	text-align: center;
+	padding: 150px 0;
+	background-size: cover;
+}
+
+.banner h1{
+	font-size: 60px;
+	margin: 0;
+}
+
+.banner p{
+	font-size: 22px;
+}
+
+.button{
+	background-color: #A89C77;
+	padding: 14px 36px;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.button:hover{
+	background-color: skyblue;
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+}
+
+.cards{
+	background: ghostwhite;
+	box-shadow: 0 0 16px #A89C77;
+	border-radius: 10px;
+	width: 300px;
+	text-align: center;
+	padding: 12px;
+	margin: 15px;
+}
+
+.cards img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.cards h3{
+	margin-bottom: 0;
+}
+
+.layout{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.footer{
+	background-color:  rgba(30, 26, 25, 1.0);
+	text-align: center;
+	padding: 26px;
+}
+
+.footer p{
+	color: ghostwhite;
+	font-family: papyrus;
+}
+
+@media (max-width: 1200px) {
+	.layout{
+		grid-template-columns: 1fr;	
+	}
+
+	.cards{
+		width: auto;
+	}
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    width: 1100px;
+  }
+}
