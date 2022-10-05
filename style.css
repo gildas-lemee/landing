@@ -1,41 +1,42 @@
 /* Write some CSS below */
 h1, h2, h3{
-	color: #A89C77;
-	font-family: Papyrus;
+	color: #206654;
+	font-family: 'Aboreto', cursive;
 	text-align: center;
 }
 
 p{
-	color: skyblue;
-	font-family: 'Alkalami', serif;
+	color: #FFFFFF;
+	font-family: Papyrus;
+	font-style: bold;
 }
 
 a{
 	color: #FFFFFF;
-	font-size: 30px;
-	font-weight: bolder;
-	font-family: 'Alkalami', serif;
+	font-size: 20px;
+	font-family: 'Aboreto', cursive;
 }
 
 .banner{
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/background.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background-v2.jpg');
 	background-position: center;
 	text-align: center;
-	padding: 150px 0;
+	padding: 120px 0;
 	background-size: cover;
 }
 
 .banner h1{
-	font-size: 60px;
+	color: #F9F5C4;
+	font-size: 80px;
 	margin: 0;
 }
 
 .banner p{
-	font-size: 22px;
+	font-size: 40px;
 }
 
 .button{
-	background-color: #A89C77;
+	background-color: rgba(32, 102, 84, 0.6);
 	padding: 14px 36px;
 	border-radius: 10px;
 	display: inline-block;
@@ -44,7 +45,7 @@ a{
 }
 
 .button:hover{
-	background-color: skyblue;
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/button.jpg');
 }
 
 .container{
@@ -52,14 +53,19 @@ a{
 	margin: auto;
 }
 
+.container h2{
+	font-family: Papyrus;
+}
+
 .cards{
-	background: ghostwhite;
-	box-shadow: 0 0 16px #A89C77;
+	background: #D1D1AD;
+	box-shadow: 0 0 16px #CCCCCC;
 	border-radius: 10px;
 	width: 300px;
 	text-align: center;
 	padding: 12px;
 	margin: 15px;
+	margin-bottom: 40px;
 }
 
 .cards img{
@@ -73,6 +79,11 @@ a{
 	margin-bottom: 0;
 }
 
+.cards p{
+	font-style: italic;
+	color: #206654;
+}
+
 .layout{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -80,14 +91,16 @@ a{
 }
 
 .footer{
-	background-color:  rgba(30, 26, 25, 1.0);
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/wall.jpg');;
 	text-align: center;
 	padding: 26px;
+	margin: 8px;
 }
 
 .footer p{
 	color: ghostwhite;
 	font-family: papyrus;
+	font-size: 20px;
 }
 
 @media (max-width: 1200px) {
